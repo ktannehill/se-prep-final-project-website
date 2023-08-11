@@ -11,7 +11,7 @@ body {
 }
 
 #banner {
-    background-image: url(https://images.unsplash.com/photo-1574376407492-c3cf78231def?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-image: url(https://images.unsplash.com/photo-1574376407492-c3cf78231def?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
     display: block;
     display: flow-root;
     height: 250px;
@@ -26,7 +26,7 @@ body {
 #header {
     width: fit-content;
     margin: auto;
-    padding: 1px 30px;
+    padding: 1px 40px;
     background: rgba(0, 0, 0, 0.5);
     text-align: center;
     margin-top: 60px;
@@ -34,7 +34,7 @@ body {
 
 #footer {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     display: block;
 }
 
@@ -66,6 +66,25 @@ img {
     width: 300px;
     object-fit: fill;
 }
+
+/* .slideUp {
+    animation-name: slideUp;
+    animation-name: slideUp;
+    animation-duration: 1s;
+    animation-duration: 1s;
+    visibility: visible;
+  }
+
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translatex(-70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translatex(0%);
+    }
+  } */
 
 .text {
     float: left;
@@ -100,5 +119,12 @@ a:visited {
     float: right;
     background-color: #415335;
     margin: 0px;
-    padding: 10px;
+    padding: 10px 15px;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.readMore:hover {
+    background-color: #a3a669;
+    color: #ccc;
 }

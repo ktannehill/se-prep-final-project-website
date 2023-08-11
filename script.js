@@ -25,3 +25,29 @@ function addClickEvent() {
 };
 
 addClickEvent();
+
+
+// as page is scrolled down
+// slide image from left
+// when it is reached on the screen
+document.addEventListener("scroll", slideImg);
+
+/* function slideImg() {
+  if (document.documentElement.scrollTop > 250) {
+    let imgSlide = document.getElementByClassName("slideUp")
+    for(i = 0; i < imgSlide.length; i++){
+        imgSlide[i].className = "slideUp";
+    }
+  }
+} */
+
+/* function slideImg() {
+    let top = ;
+    let i = 0;
+    while (document.documentElement.scrollTop < ) {
+      let imgSlide = document.getElementByClassName("slideUp")
+      for(i = 0; i < imgSlide.length; i++){
+          imgSlide[i].className = "slideUp";
+      }
+    }
+  } */
