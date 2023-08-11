@@ -13,12 +13,14 @@ body {
 #banner {
     background-image: url(https://images.unsplash.com/photo-1574376407492-c3cf78231def?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
     display: block;
-    min-height: 250px;
+    display: flow-root;
+    height: 250px;
     width: 100%;
     background-size: cover;
     background-position: center;
     margin: 0px;
-    padding: 20px 0px;
+    position: relative;
+    padding: 0px 50px;
 }
 
 #header {
@@ -28,6 +30,12 @@ body {
     background: rgba(0, 0, 0, 0.5);
     text-align: center;
     margin-top: 60px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    display: block;
 }
 
 h1, h2 {
@@ -66,8 +74,9 @@ img {
     background-color: rgba(26, 33, 21, 0.7);
 }
 
-p {
+p, button {
     font-family: Arial, Helvetica, sans-serif;
+    color: #ccc;
 }
 
 .photoCredit {
@@ -75,6 +84,21 @@ p {
     color: #909090;
 }
 
-.photoCredit a {
+a {
     color: #cc6528;
+}
+
+a:hover {
+    color: #e8b054;
+}
+
+a:visited {
+    color: #5e2943;
+}
+
+.readMore {
+    float: right;
+    background-color: #415335;
+    margin: 0px;
+    padding: 10px;
 }
